@@ -12,3 +12,9 @@ dec3 = 1991 #เลขฐาน10
 conv_to3 = hex(dec3) #แปลงเลขฐาน10 to 16    
 dec3 = (conv_to3)
 print(dec3)
+
+dec = 1991 #เลขฐาน10
+
+print(bin(dec))  # แปลงเป็นฐาน 2
+print(oct(dec))  # แปลงเป็นฐาน 8
+print(hex(dec))  # แปลงเป็นฐาน 16
