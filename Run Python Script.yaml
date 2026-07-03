@@ -2,9 +2,8 @@ name: Run Python Script
 
 on:
   push:
-    branches: [ main ]  # เมื่อไหร่ที่มีการอัปเดตโค้ดลง GitHub ให้รันทันที
-  workflow_dispatch:     # เปิดปุ่มให้เราสามารถกดสั่งรันเองในเว็บได้ด้วย
-
+    branches: [ main ]  # 
+  workflow_dispatch:     # 
 jobs:
   run-python:
     runs-on: ubuntu-latest
@@ -15,7 +14,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10' # กำหนดเวอร์ชันของ Python
+        python-version: '3.12' # 
 
     - name: Run Script
-      run: python ชื่อไฟล์ของคุณ.py  # เปลี่ยนคำว่า "ชื่อไฟล์ของคุณ.py" ให้ตรงกับไฟล์ที่เขียนเลขฐานไว้
+      run: python index.py  # 
