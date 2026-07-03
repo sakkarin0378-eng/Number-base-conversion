@@ -1,0 +1,4 @@
+dec = 20021991 #เลขฐานสิบ
+conv_to = bin(dec) #แปลงเลขฐาน10 to 2
+dec = (conv_to)
+print(dec)
